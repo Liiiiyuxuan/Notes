@@ -48,18 +48,24 @@ h1, h2 {
     color: #333;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
+.pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* full viewport height */
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
 }
-.content-wrap {
-    flex: 1; /* expands to fill available space */
-}
-footer {
-    /* styles for footer */
+
+.pushable:active .front {
+    transform: translateY(-2px);
 }
