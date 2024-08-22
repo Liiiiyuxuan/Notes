@@ -1,2 +1,2 @@
 # Notes
-Notes I take
+Notes
