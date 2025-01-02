@@ -1,3 +1,3 @@
-Professor: [Jenz Schmitz](https://cs.uwaterloo.ca/about/people/jschmit)
+Instructor: [Jenz Schmitz](https://cs.uwaterloo.ca/about/people/jschmit)
 
 Term: 2024S
